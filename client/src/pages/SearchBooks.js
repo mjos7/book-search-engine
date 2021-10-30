@@ -29,11 +29,6 @@ const SearchBooks = () => {
     return () => saveBookIds(savedBookIds);
   });
 
-  // learn more here: https://reactjs.org/docs/hooks-effect.html#effects-with-cleanup
-  useEffect(() => {
-    return () => saveBookIds(savedBookIds);
-  });
-
   // create method to search for books and set state on form submit
   const handleFormSubmit = async event => {
     event.preventDefault();
@@ -151,7 +146,7 @@ const SearchBooks = () => {
                       {savedBookIds?.some(
                         savedBookId => savedBookId === book.bookId
                       )
-                        ? 'This book has already been saved!'
+                        ? 'Saved!'
                         : 'Save this Book!'}
                     </Button>
                   )}
