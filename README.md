@@ -25,10 +25,7 @@ Refactor a fully functioning Google Books API search engine built with a RESTful
 
 ## Installation
 
-- Navigage to the server directory and run:
-  - `npm install`
-- Navigage to the client directory and run:
-  - `npm install`
+- Run NPM install in the client and server folder
 - Navigate to the root directory and run:
   - `npm install`
 - To start the server, in the command line run:
