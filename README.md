@@ -4,7 +4,7 @@
 
 ## Screenshot
 
-![Google Book Search Engine]()
+![Google Book Search Engine](client/src/docs/book-search-engine-mockup.png)
 
 ## Description
 
