@@ -136,14 +136,15 @@ const SearchBooks = () => {
                   <Card.Title>{book.title}</Card.Title>
                   <p className="small">Authors: {book.authors}</p>
                   <p className="small">
-                    {' '}
+                    View{' '}
                     <a
                       href={book.link}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      View on Google
+                      {book.title}
                     </a>
+                    &nbsp;on Google Books
                   </p>
                   <Card.Text>{book.description}</Card.Text>
                   {Auth.loggedIn() && (
